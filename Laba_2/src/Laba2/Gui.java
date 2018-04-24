@@ -14,8 +14,8 @@ public class Gui{
 	public static Shell ConfigureShell(Display display) {
 		
 		Ostrich ostrich = new Ostrich(true, true, true, "Strays");
-	    Elephant elephant = new Elephant(true, true, true, true, "Slon");
-	    Employee employee = new Employee(elephant, ostrich);
+		Elephant elephant = new Elephant(true, true, true, true, "Slon");
+		Employee employee = new Employee(elephant, ostrich);
 	    	    
 		Shell shell = new Shell(display, SWT.SHELL_TRIM & (~SWT.RESIZE));
 		shell.setText("Find out remainder and quotient");

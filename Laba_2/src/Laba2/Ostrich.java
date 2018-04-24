@@ -7,9 +7,9 @@ public class Ostrich extends Bird {
 	Ostrich(){
 		super();
 	}
+	
 	Ostrich(boolean b, boolean c, boolean w, String n){
 		super(b, c, n, w);
 		
 	}
-	
 }
